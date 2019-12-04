@@ -1,0 +1,5 @@
+﻿http://xmltocsharp.azurewebsites.net/
+
+use above site to generate dynamic class from xml and use the same generated class in the site .
+
+Copy and paste in ClinicalDocument.cs file.

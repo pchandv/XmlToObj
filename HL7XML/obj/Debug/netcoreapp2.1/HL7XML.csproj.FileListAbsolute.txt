@@ -1,0 +1,15 @@
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\HL7XML.deps.json
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\HL7XML.runtimeconfig.json
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\HL7XML.runtimeconfig.dev.json
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\HL7XML.dll
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\obj\Debug\netcoreapp2.1\HL7XML.csprojAssemblyReference.cache
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\obj\Debug\netcoreapp2.1\HL7XML.csproj.CoreCompileInputs.cache
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\obj\Debug\netcoreapp2.1\HL7XML.AssemblyInfoInputs.cache
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\obj\Debug\netcoreapp2.1\HL7XML.AssemblyInfo.cs
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\HL7XML.pdb
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\MARC.Everest.dll
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\MARC.Everest.Formatters.XML.Datatypes.R1.dll
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\bin\Debug\netcoreapp2.1\MARC.Everest.Formatters.XML.ITS1.dll
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\obj\Debug\netcoreapp2.1\HL7XML.csproj.CopyComplete
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\obj\Debug\netcoreapp2.1\HL7XML.dll
+C:\Users\pxv1009\source\repos\HL7XML\HL7XML\obj\Debug\netcoreapp2.1\HL7XML.pdb

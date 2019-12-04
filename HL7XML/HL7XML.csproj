@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.0\ccd2.xml" />
+    <Content Include="bin\Debug\netcoreapp2.0\ccd1.xml" />
+    <Content Include="bin\Debug\netcoreapp2.0\HL7XML.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\HL7XML.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\HL7XML.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.0\HL7XML.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\HL7XML.pdb" />
+    <None Include="bin\Debug\netcoreapp2.0\MARC.Everest.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\MARC.Everest.Formatters.XML.Datatypes.R1.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\MARC.Everest.Formatters.XML.ITS1.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CodeDom" Version="4.7.0" />
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+    <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MARC.Everest">
+      <HintPath>lib\MARC.Everest.dll</HintPath>
+    </Reference>
+    <Reference Include="MARC.Everest.Formatters.XML.Datatypes.R1">
+      <HintPath>lib\MARC.Everest.Formatters.XML.Datatypes.R1.dll</HintPath>
+    </Reference>
+    <Reference Include="MARC.Everest.Formatters.XML.ITS1">
+      <HintPath>lib\MARC.Everest.Formatters.XML.ITS1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

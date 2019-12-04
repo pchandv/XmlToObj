@@ -1,0 +1,243 @@
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd">
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <templateId root="2.16.840.1.113883.10.20.1"/>
+  <id root="db734647-fc99-424c-a864-7e3cda82e703"/>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" displayName="Summarization of episode note"/>
+  <title>Decipher Test PHR</title>
+  <effectiveTime value="20151118103315+0200"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="en-US"/>
+  <recordTarget>
+    <patientRole>
+      <id extension="160785-9739" root="2.16.840.1.113883.19.5"/>
+      <patient>
+        <name>
+          <given>Alain</given>
+          <family>Smith</family>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
+        <birthTime value="19850716"/>
+      </patient>
+      <providerOrganization>
+        <id root="2.16.840.1.113883.19.5"/>
+        <name>Good Health Clinic</name>
+      </providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20151117114330+0200"/>
+    <assignedAuthor>
+      <id root="20cf14fb-b65c-4c8c-a54d-b0cca834c18c"/>
+      <assignedPerson>
+        <name>
+          <prefix>Dr.</prefix>
+          <given>Robert</given>
+          <family>Dolin</family>
+        </name>
+      </assignedPerson>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.19.5"/>
+        <name>Good Health Clinic</name>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <informant>
+    <assignedEntity>
+      <id nullFlavor="NI"/>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.19.5"/>
+        <name>Good Health Clinic</name>
+      </representedOrganization>
+    </assignedEntity>
+  </informant>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.19.5"/>
+        <name>Good Health Clinic</name>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <legalAuthenticator>
+    <time value="20151117114330+0200"/>
+    <signatureCode code="S"/>
+    <assignedEntity>
+      <id nullFlavor="NI"/>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.19.5"/>
+        <name>Good Health Clinic</name>
+      </representedOrganization>
+    </assignedEntity>
+  </legalAuthenticator>
+  <participant typeCode="IND">
+    <associatedEntity classCode="GUAR">
+      <id root="4ff51570-83a9-47b7-91f2-93ba30373141"/>
+      <addr>
+        <streetAddressLine/>
+        <city/>
+        <state/>
+        <postalCode/>
+      </addr>
+      <telecom value="(tel:) "/>
+      <associatedPerson>
+        <name>
+          <given>Alfred</given>
+          <family>Smith</family>
+        </name>
+      </associatedPerson>
+    </associatedEntity>
+  </participant>
+  <participant typeCode="IND">
+    <associatedEntity classCode="NOK">
+      <id root="4ac71514-6a10-4164-9715-f8d96af48e6d"/>
+      <code code="66839005" codeSystem="2.16.840.1.113883.6.96" displayName="Father"/>
+      <telecom value="(tel:) "/>
+      <associatedPerson>
+        <name>
+          <given>Alfred</given>
+          <family>Smith</family>
+        </name>
+      </associatedPerson>
+    </associatedEntity>
+  </participant>
+  <documentationOf>
+    <serviceEvent classCode="PCPR">
+      <effectiveTime>
+        <low value="20151117114330+0200"/>
+        <high value="20151118103315+0200"/>
+      </effectiveTime>
+      <performer typeCode="PRF">
+        <functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88"/>
+        <time>
+          <low value="1990"/>
+          <high value="20000407"/>
+        </time>
+        <assignedEntity>
+          <id root="20cf14fb-b65c-4c8c-a54d-b0cca834c18c"/>
+          <assignedPerson>
+            <name>
+              <prefix>Dr.</prefix>
+              <given>Robert</given>
+              <family>Dolin</family>
+            </name>
+          </assignedPerson>
+          <representedOrganization>
+            <id root="2.16.840.1.113883.19.5"/>
+            <name>Good Health Clinic</name>
+          </representedOrganization>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.1.11"/>
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1"/>
+          <title>Problems</title>
+          <text>
+            <table border="1" width="100%">
+              <thead>
+                <tr>
+                  <th>Condition</th>
+                  <th>Effective Dates</th>
+                  <th>Condition Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Epilepsy</td>
+                  <td>Mar 22, 2005</td>
+                  <td>Active</td>
+                </tr>
+                <tr>
+                  <td>Pneumonia</td>
+                  <td>Jan 15, 2008</td>
+                  <td>Resolved</td>
+                </tr>
+                <tr>
+                  <td>Fracture of upper limb</td>
+                  <td>Jun 30, 2010</td>
+                  <td>Resolved</td>
+                </tr>
+                <tr id="c9d7faff-2992-41c9-baab-fb9849d9dd45">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="e882a61d-da51-44e9-8d80-61ead72baa01">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="58fce790-a4a7-4830-93ea-14b7d59095dc">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="a0fd1b36-9668-4f94-a12e-d0ada0373d74">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="a56940e3-e420-4e6b-87eb-b2a5d3b20537">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="d98d7f49-d0df-49b7-a640-3c3fbabdc8c8">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="04a91966-3d2d-44e0-9608-db612a71ec37">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="71a7ecc2-5898-4623-b08f-ac9f57d10f8e">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+                <tr id="d052662c-7c44-4904-93cf-2750d3c0985a">
+                  <td>Respiratorytractinfection</td>
+                  <td>Jun 15, 2014</td>
+                  <td>Active</td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.1.27"/>
+              <id root="6a2fa88d-4174-4909-aece-db44b60a3abb"/>
+              <code nullFlavor="NA"/>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.1.28"/>
+                  <id root="d11275e7-67ae-11db-bd13-0800200c9a66"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20050322"/>
+                  </effectiveTime>
+                  <value code="84757009" codeSystem="2.16.840.1.113883.6.96" displayName="Epilepsy" xsi:type="CD"/>
+                  <entryRelationship typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.1.50"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" displayName="Status"/>
+                      <statusCode code="completed"/>
+                      <value code="55561003" codeSystem="2.16.840.1.113883.6.96" displayName="Active" xsi:type="CE"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
