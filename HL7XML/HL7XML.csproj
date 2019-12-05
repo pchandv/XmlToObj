@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.0\ccd.xml" />
     <Content Include="bin\Debug\netcoreapp2.0\ccd2.xml" />
     <Content Include="bin\Debug\netcoreapp2.0\ccd1.xml" />
     <Content Include="bin\Debug\netcoreapp2.0\HL7XML.deps.json" />
@@ -22,6 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="HealthVault.NET" Version="2.71.20922.8" />
+    <PackageReference Include="nHapi.Core" Version="2.6.0.2" />
     <PackageReference Include="System.CodeDom" Version="4.7.0" />
     <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
     <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
