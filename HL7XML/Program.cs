@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
+using System.Web.Helpers;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -14,7 +16,11 @@ namespace HL7XML
             string parentPath = Path.GetDirectoryName(typeof(Program).GetTypeInfo().Assembly.Location) + "\\";
             string fileName = "ccd1";
             string filePath = parentPath + fileName + ".xml";
+            string Outputfile= parentPath + "output" + ".json";
             var doc = ReadXML<POCD_MT000040ClinicalDocument>(filePath);
+            var _json = JsonConvert.SerializeObject(doc);
+            System.IO.File.WriteAllText(Outputfile, _json);
+            Console.WriteLine(_json);
             Console.ReadLine();
         }
 

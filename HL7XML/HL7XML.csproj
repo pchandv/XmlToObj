@@ -12,6 +12,7 @@
     <Content Include="bin\Debug\netcoreapp2.0\HL7XML.deps.json" />
     <Content Include="bin\Debug\netcoreapp2.0\HL7XML.runtimeconfig.dev.json" />
     <Content Include="bin\Debug\netcoreapp2.0\HL7XML.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\output.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,7 @@
 
   <ItemGroup>
     <PackageReference Include="HealthVault.NET" Version="2.71.20922.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="nHapi.Core" Version="2.6.0.2" />
     <PackageReference Include="System.CodeDom" Version="4.7.0" />
     <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
