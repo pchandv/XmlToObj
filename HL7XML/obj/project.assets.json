@@ -2,84 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "HealthVault.NET/2.71.20922.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "4.0.40804",
-          "Microsoft.AspNet.Razor": "2.0.30506",
-          "Microsoft.AspNet.WebPages": "2.0.30506",
-          "Microsoft.Web.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Health.Directory.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.Directory.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.Old.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.Old.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.dll": {},
-          "lib/net45/Microsoft.Health.Web.Mvc.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.Web.Mvc.dll": {},
-          "lib/net45/Microsoft.Health.Web.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.Web.dll": {},
-          "lib/net45/Microsoft.Health.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Health.Directory.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.Directory.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.Old.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.Old.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.ItemTypes.dll": {},
-          "lib/net45/Microsoft.Health.Web.Mvc.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.Web.Mvc.dll": {},
-          "lib/net45/Microsoft.Health.Web.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.Web.dll": {},
-          "lib/net45/Microsoft.Health.XmlSerializers.dll": {},
-          "lib/net45/Microsoft.Health.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Mvc/4.0.40804": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor": "2.0.20710",
-          "Microsoft.AspNet.WebPages": "2.0.20710"
-        },
-        "compile": {
-          "lib/net40/System.Web.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net40/System.Web.Mvc.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Razor/2.0.30506": {
-        "type": "package",
-        "compile": {
-          "lib/net40/System.Web.Razor.dll": {}
-        },
-        "runtime": {
-          "lib/net40/System.Web.Razor.dll": {}
-        }
-      },
-      "Microsoft.AspNet.WebPages/2.0.30506": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor": "2.0.20710",
-          "Microsoft.Web.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "lib/net40/System.Web.Helpers.dll": {},
-          "lib/net40/System.Web.WebPages.Deployment.dll": {},
-          "lib/net40/System.Web.WebPages.Razor.dll": {},
-          "lib/net40/System.Web.WebPages.dll": {}
-        },
-        "runtime": {
-          "lib/net40/System.Web.Helpers.dll": {},
-          "lib/net40/System.Web.WebPages.Deployment.dll": {},
-          "lib/net40/System.Web.WebPages.Razor.dll": {},
-          "lib/net40/System.Web.WebPages.dll": {}
-        }
-      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -267,15 +189,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Web.Infrastructure/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
       "NETStandard.Library/2.0.0": {
@@ -624,88 +537,6 @@
     }
   },
   "libraries": {
-    "HealthVault.NET/2.71.20922.8": {
-      "sha512": "1DrIrLsdhKwyAAmQEIivWuAls6Rx97EzesMdUCVBRnl5Yr8OmrghxTGCFtaZp998BcYyqD1bPk8sDZrPGa4lfw==",
-      "type": "package",
-      "path": "healthvault.net/2.71.20922.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "healthvault.net.2.71.20922.8.nupkg.sha512",
-        "healthvault.net.nuspec",
-        "lib/net45/Microsoft.Health.Directory.XmlSerializers.dll",
-        "lib/net45/Microsoft.Health.Directory.dll",
-        "lib/net45/Microsoft.Health.Directory.pdb",
-        "lib/net45/Microsoft.Health.Directory.xml",
-        "lib/net45/Microsoft.Health.ItemTypes.Old.XmlSerializers.dll",
-        "lib/net45/Microsoft.Health.ItemTypes.Old.dll",
-        "lib/net45/Microsoft.Health.ItemTypes.Old.pdb",
-        "lib/net45/Microsoft.Health.ItemTypes.Old.xml",
-        "lib/net45/Microsoft.Health.ItemTypes.XmlSerializers.dll",
-        "lib/net45/Microsoft.Health.ItemTypes.dll",
-        "lib/net45/Microsoft.Health.ItemTypes.pdb",
-        "lib/net45/Microsoft.Health.ItemTypes.xml",
-        "lib/net45/Microsoft.Health.Web.Mvc.XmlSerializers.dll",
-        "lib/net45/Microsoft.Health.Web.Mvc.dll",
-        "lib/net45/Microsoft.Health.Web.Mvc.pdb",
-        "lib/net45/Microsoft.Health.Web.Mvc.xml",
-        "lib/net45/Microsoft.Health.Web.XmlSerializers.dll",
-        "lib/net45/Microsoft.Health.Web.dll",
-        "lib/net45/Microsoft.Health.Web.pdb",
-        "lib/net45/Microsoft.Health.Web.xml",
-        "lib/net45/Microsoft.Health.XmlSerializers.dll",
-        "lib/net45/Microsoft.Health.dll",
-        "lib/net45/Microsoft.Health.pdb",
-        "lib/net45/Microsoft.Health.xml"
-      ]
-    },
-    "Microsoft.AspNet.Mvc/4.0.40804": {
-      "sha512": "tQrw7I+Ol1Kr3kDKcA0XNT68ctjciLIUZqGtMBk7fNjEGUUVDifwlOJJXUBQxUayv4aHwB+OOiPFF3ZD6VXmRw==",
-      "type": "package",
-      "path": "microsoft.aspnet.mvc/4.0.40804",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/Web.config.install.xdt",
-        "content/Web.config.uninstall.xdt",
-        "lib/net40/System.Web.Mvc.dll",
-        "lib/net40/System.Web.Mvc.xml",
-        "microsoft.aspnet.mvc.4.0.40804.nupkg.sha512",
-        "microsoft.aspnet.mvc.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Razor/2.0.30506": {
-      "sha512": "mYb3z3NZpD9ucG+UVQFSWGXDfcbL+02BxmPhiZTImm152aL/NpVVvA1FXhFaNxSj7AZN8Ij7gwStUe/9twrPhA==",
-      "type": "package",
-      "path": "microsoft.aspnet.razor/2.0.30506",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/System.Web.Razor.dll",
-        "lib/net40/System.Web.Razor.xml",
-        "microsoft.aspnet.razor.2.0.30506.nupkg.sha512",
-        "microsoft.aspnet.razor.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.WebPages/2.0.30506": {
-      "sha512": "RV7HeLgtrswG5Xd0gZ1s5DCEtOU49D55pYgpQuiAdXjxXzDmRAJeLco7muJGA8yK+piImQounlUQkNkCgGWLzw==",
-      "type": "package",
-      "path": "microsoft.aspnet.webpages/2.0.30506",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/System.Web.Helpers.dll",
-        "lib/net40/System.Web.Helpers.xml",
-        "lib/net40/System.Web.WebPages.Deployment.dll",
-        "lib/net40/System.Web.WebPages.Deployment.xml",
-        "lib/net40/System.Web.WebPages.Razor.dll",
-        "lib/net40/System.Web.WebPages.Razor.xml",
-        "lib/net40/System.Web.WebPages.dll",
-        "lib/net40/System.Web.WebPages.xml",
-        "microsoft.aspnet.webpages.2.0.30506.nupkg.sha512",
-        "microsoft.aspnet.webpages.nuspec"
-      ]
-    },
     "Microsoft.NETCore.App/2.0.0": {
       "sha512": "aEj44yEbsK+XlDwPNSM7CeaYDg33NMk492y2kFRIOMPOVmXvXNO0LTDm8lUhS4Jlm2uNFsIDDH4ggt9lnSDejQ==",
       "type": "package",
@@ -1056,18 +887,6 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
-      ]
-    },
-    "Microsoft.Web.Infrastructure/1.0.0": {
-      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
-      "type": "package",
-      "path": "microsoft.web.infrastructure/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Microsoft.Web.Infrastructure.dll",
-        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-        "microsoft.web.infrastructure.nuspec"
       ]
     },
     "NETStandard.Library/2.0.0": {
@@ -2621,7 +2440,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "HealthVault.NET >= 2.71.20922.8",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 12.0.3",
       "System.CodeDom >= 4.7.0",
@@ -2671,10 +2489,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "HealthVault.NET": {
-            "target": "Package",
-            "version": "[2.71.20922.8, )"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.0.0, )",
@@ -2708,57 +2522,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'HealthVault.NET 2.71.20922.8' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "HealthVault.NET",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Mvc 4.0.40804' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.Mvc",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Razor 2.0.30506' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.Razor",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages 2.0.30506' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.WebPages",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }
