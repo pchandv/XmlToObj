@@ -1,16 +1,19 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "17a9ea276c16468cfcb0047270dd5038149fa855"
+    "signature": "d21328a5d09f968ef89e1c27a7220bf41db3f88b"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "HL7XML/1.0.0": {
         "dependencies": {
+          "HealthVault.NET": "2.71.20922.8",
+          "Newtonsoft.Json": "12.0.3",
           "System.CodeDom": "4.7.0",
           "System.Xml.ReaderWriter": "4.3.1",
           "System.Xml.XmlDocument": "4.3.0",
+          "nHapi.Core": "2.6.0.2",
           "MARC.Everest": "1.5.0.0",
           "MARC.Everest.Formatters.XML.Datatypes.R1": "1.2.0.0",
           "MARC.Everest.Formatters.XML.ITS1": "1.2.0.0"
@@ -19,7 +22,181 @@
           "HL7XML.dll": {}
         }
       },
+      "HealthVault.NET/2.71.20922.8": {
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "4.0.40804",
+          "Microsoft.AspNet.Razor": "2.0.30506",
+          "Microsoft.AspNet.WebPages": "2.0.30506",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Health.Directory.XmlSerializers.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.0.0"
+          },
+          "lib/net45/Microsoft.Health.Directory.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.20922.8"
+          },
+          "lib/net45/Microsoft.Health.ItemTypes.Old.XmlSerializers.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.0.0"
+          },
+          "lib/net45/Microsoft.Health.ItemTypes.Old.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.20922.8"
+          },
+          "lib/net45/Microsoft.Health.ItemTypes.XmlSerializers.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.0.0"
+          },
+          "lib/net45/Microsoft.Health.ItemTypes.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.20922.8"
+          },
+          "lib/net45/Microsoft.Health.Web.Mvc.XmlSerializers.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.0.0"
+          },
+          "lib/net45/Microsoft.Health.Web.Mvc.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.20922.8"
+          },
+          "lib/net45/Microsoft.Health.Web.XmlSerializers.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.0.0"
+          },
+          "lib/net45/Microsoft.Health.Web.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.20922.8"
+          },
+          "lib/net45/Microsoft.Health.XmlSerializers.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.0.0"
+          },
+          "lib/net45/Microsoft.Health.dll": {
+            "assemblyVersion": "2.71.0.0",
+            "fileVersion": "2.71.20922.8"
+          }
+        }
+      },
+      "Microsoft.AspNet.Mvc/4.0.40804": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "2.0.30506",
+          "Microsoft.AspNet.WebPages": "2.0.30506"
+        },
+        "runtime": {
+          "lib/net40/System.Web.Mvc.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.0.40804.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/2.0.30506": {
+        "runtime": {
+          "lib/net40/System.Web.Razor.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20715.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/2.0.30506": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "2.0.30506",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net40/System.Web.Helpers.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20710.0"
+          },
+          "lib/net40/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20710.0"
+          },
+          "lib/net40/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20710.0"
+          },
+          "lib/net40/System.Web.WebPages.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20710.0"
+          }
+        }
+      },
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "nHapi.Core/2.6.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/NHapi.Base.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V21.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V22.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V23.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V231.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V24.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V25.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V251.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V26.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V27.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V271.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V28.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          },
+          "lib/netstandard2.0/NHapi.Model.V281.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
       "System.CodeDom/4.7.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -220,12 +397,61 @@
       "serviceable": false,
       "sha512": ""
     },
+    "HealthVault.NET/2.71.20922.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1DrIrLsdhKwyAAmQEIivWuAls6Rx97EzesMdUCVBRnl5Yr8OmrghxTGCFtaZp998BcYyqD1bPk8sDZrPGa4lfw==",
+      "path": "healthvault.net/2.71.20922.8",
+      "hashPath": "healthvault.net.2.71.20922.8.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Mvc/4.0.40804": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tQrw7I+Ol1Kr3kDKcA0XNT68ctjciLIUZqGtMBk7fNjEGUUVDifwlOJJXUBQxUayv4aHwB+OOiPFF3ZD6VXmRw==",
+      "path": "microsoft.aspnet.mvc/4.0.40804",
+      "hashPath": "microsoft.aspnet.mvc.4.0.40804.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/2.0.30506": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mYb3z3NZpD9ucG+UVQFSWGXDfcbL+02BxmPhiZTImm152aL/NpVVvA1FXhFaNxSj7AZN8Ij7gwStUe/9twrPhA==",
+      "path": "microsoft.aspnet.razor/2.0.30506",
+      "hashPath": "microsoft.aspnet.razor.2.0.30506.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/2.0.30506": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RV7HeLgtrswG5Xd0gZ1s5DCEtOU49D55pYgpQuiAdXjxXzDmRAJeLco7muJGA8yK+piImQounlUQkNkCgGWLzw==",
+      "path": "microsoft.aspnet.webpages/2.0.30506",
+      "hashPath": "microsoft.aspnet.webpages.2.0.30506.nupkg.sha512"
+    },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "nHapi.Core/2.6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SjIVluNN7MHYTL3q2bqheHsCBZ6hqmlX/krA1vslWRSpCzW6NrqVQ/6N+KtYY1n32rSUrLVz03d5Hx5+bBxpwg==",
+      "path": "nhapi.core/2.6.0.2",
+      "hashPath": "nhapi.core.2.6.0.2.nupkg.sha512"
     },
     "System.CodeDom/4.7.0": {
       "type": "package",
